@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=M+PLUS+Rounded+1c&display=swap');
+
+body {
+    background-color: #f7f7f7;
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.container {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+}
+
+.card-container {
+    border-radius: 5px;
+    background-color: #ffffffed;
+    width: 23rem;
+    height: 24.3rem;
+    box-shadow: 0px 2px 2px black;
+}
+
+.card-img-container {
+    height: 12.8rem;
+}
+img {
+    width: 23rem;
+    height: 12.8rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+.card-footer {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    font-size: 14px;
+    height: 4rem;
+}
+.card-header:hover {
+    background-color: #dfede8ed;
+    cursor: pointer;
+}
+.footer-btn:hover , .footer-icons:hover {
+    background-color: #dfede8ed;
+    cursor: pointer; 
+}
+.footer-icons:hover {
+    border-radius: 50%;
+}
+.footer-btn {
+    color: blueviolet;
+    font-weight: 700;
+}
+.footer-icons {
+    color: grey;
+}
+.font-lg {
+    font-size: smaller;
+}
+.font-sm {
+    font-size: small;
+}
+h2 {
+    margin: 0%;
+    padding-top: 3%;
+}
+p {
+    margin: 0%;
+}
+.card-footer > div {
+    padding: 5px;
+    margin: 5px;
+}
+.card-desc {
+    margin: 0rem 1rem 0rem 1rem;
+}
+.card-title {
+    height: 5rem;
+    margin-left: 1rem;
+    padding-top: 0;
+}
+/* @media only screen and (max-width:600px){
+    .card-container {
+        width: 75%;
+    }
+} */

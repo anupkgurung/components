@@ -1,0 +1,15 @@
+.card-container {
+    border-radius: 5px;
+    background-color: #ffffffed;
+    width: 23rem;
+    height: 20rem;
+}
+.title-overlay {
+    position: fixed;
+    z-index: 1;
+    margin-top: 8.5rem;
+    color: white;
+}
+.card-desc {
+    margin-top: 1rem;
+}

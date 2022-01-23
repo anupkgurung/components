@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="badge.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <title>Badge</title>
+</head>
+<body>
+    <div class="main-container">
+        <p>Text with a badge
+            <span class="badge-sm font-sm">4</span>
+        </p>
+        <p>Text with large badge
+            <span class="badge-lg">1</span></p>
+        <p>Button with a badge on the left
+            <button>Action</button>
+            <span class="btn-badge-left font-sm">8</span></p>
+        <p>Button toggles badge visibility
+            <button class="hide-badge">Hide</button>
+            <span class="toggle-btn-badge-right font-sm">4</span></p>
+        <p>Icon with a bacdge
+            <span class="material-icons">home</span>
+            <span tabindex="1" class="icon-badge font-sm">15</span>
+        </p>        
+    </div>
+    <script>
+        let hideBadge = document.querySelector(".hide-badge");
+        hideBadge.addEventListener("click",function(){
+            badgeToHide = document.querySelector(".toggle-btn-badge-right");
+            if(badgeToHide.style.display === "none"){
+                document.querySelector(".toggle-btn-badge-right").style.display = "";
+            }else{
+            document.querySelector(".toggle-btn-badge-right").style.display = "none";
+            }
+        })
+    </script>
+</body>
+</html>

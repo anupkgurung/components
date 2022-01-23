@@ -1,0 +1,10 @@
+img {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.card-desc {
+    margin-top: 0.5rem;
+}
+.card-footer {
+    height: 3rem;
+}

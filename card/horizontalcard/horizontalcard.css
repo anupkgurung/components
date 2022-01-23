@@ -1,0 +1,28 @@
+.container.container-horizontal {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+.card-container {
+    height: 10rem;
+    width: 23.5rem;
+}
+.card-header {
+    flex-direction: row;
+    gap: 5%;
+}
+.card-img-horizontal {
+    height: 7rem;
+}
+img {
+    width: 7rem;
+    height: 7rem;
+}
+h2 {
+    padding-top: 10%;
+}
+.card-footer {
+    /* height: 4rem; */
+    height: 2.5rem;
+}

@@ -1,0 +1,33 @@
+.main-container {
+    background-color: #f5efef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+}
+.nav{
+    display: flex;
+    background-color: rgb(98, 0, 238);
+}
+p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+span, p {
+    color: white;
+}
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1 1 auto;
+}
+.util{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    margin-right: 1rem;
+}
+span {
+    margin: 1.2rem 0rem 0rem 1.25rem;
+}

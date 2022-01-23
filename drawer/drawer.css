@@ -1,0 +1,49 @@
+.main-container {
+    background-color: #f5efef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem;
+}
+a:hover {
+    background-color: #cdcdcd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a:focus {
+    background-color: rgb(60, 214, 241);
+    border-radius: 5px;
+}
+.drawer-container {
+    background-color: #ffffff;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 15.5rem;
+    height: 16.5rem;
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+}
+h3 {
+    margin: 1.2rem 0rem 0rem .9rem;
+}
+p {
+    margin: 0rem 0rem 0rem .9rem;
+}
+
+.icon-drawer {
+    margin-right: 2rem;
+}
+.title{
+    margin: .1rem;
+    padding: .3rem;
+}
