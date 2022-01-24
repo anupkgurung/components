@@ -1,8 +1,5 @@
 .main-container {
     background-color: #f5efef;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 40rem;
 }
 .nav{

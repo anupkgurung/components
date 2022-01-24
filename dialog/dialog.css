@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=M+PLUS+Rounded+1c&family=Roboto+Slab&display=swap');@import url('https://fonts..com/css2?family=El+Messiri&family=M+PLUS+Rounded+1c&family=Roboto+Slab&display=swap');
+
+*{
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-container {
+    background-color: #f5efef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+.dialog {
+    box-shadow: 3px 2px 18px 3px black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 10rem;
+    border-radius: 5px;
+}
+.btn-grp {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0.6rem 0rem 0rem;
+    font-size: 13px;
+    color: rgb(87, 63, 194);
+    font-weight: bold;
+}
+h3,p {
+    margin-left: 1.5rem;
+}
+p {
+    margin-top : 0rem;
+}
+.btn {
+    padding: 1rem;
+}
+.btn:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
