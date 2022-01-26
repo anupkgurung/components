@@ -11,6 +11,16 @@
     padding: 10px;
     flex-wrap: wrap;
 }
+.chip-stacked {
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+.chip-item.stacked-item {
+    margin: .3rem ;
+    flex-grow: 1;
+    width: 10rem;
+}
 .chip-item {
     background-color: #dddbdb;
     display: flex;
@@ -39,4 +49,8 @@
     border: none;
     border-bottom: 1px solid;
     margin: .5rem 0rem 0rem .7rem;
+}
+.head{
+    text-decoration: blueviolet;
+    margin: 1rem;
 }

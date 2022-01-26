@@ -1,10 +1,20 @@
-.main-container {
-    background-color: #f5efef;
-    height: 40rem;
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 1400px;
+    margin: 2px auto;
 }
 .nav{
     display: flex;
     background-color: rgb(98, 0, 238);
+    width: 100%;
+}
+.nav-fix{
+    top: 0;
+    margin-top: 0;
+    position: fixed;
 }
 p {
     font-size: 1.25rem;
@@ -14,17 +24,29 @@ p {
 span, p {
     color: white;
 }
+.content p {
+    color: black;
+}
+.content-fix {
+    padding-top: 70px;
+}
 .menu {
     display: flex;
     justify-content: flex-start;
     flex: 1 1 auto;
 }
-.util{
+.menu-icon-btn{
     display: flex;
     justify-content: flex-end;
     flex: 1 1 auto;
     margin-right: 1rem;
 }
-span {
+.icon-btn {
     margin: 1.2rem 0rem 0rem 1.25rem;
+}
+.nav-collapsed {
+    width: 12rem !important;
+    border-bottom-right-radius: 20px;
+    transition: width .5s;
+    height: 4rem;
 }

@@ -11,41 +11,66 @@
     <title>Chips</title>
 </head>
 <body>
-    <div class="container">
-        <div class="chip">
-            <div class="chip-item">
-                Apple
+    <div class="head">BASIC CHIPS
+        <div class="container">
+            <div class="chip">
+                <div class="chip-item">
+                    Apple
+                    <span class="material-icons icon-remove-sm">cancel</span>
+                </div>
+                <div class="chip-item">
+                    Banana
+                    <span class="material-icons icon-remove-sm">cancel</span>
+                </div>
+                <div class="chip-item">
+                    Strawberry
                 <span class="material-icons icon-remove-sm">cancel</span>
-            </div>
-            <div class="chip-item">
-                Banana
-                <span class="material-icons icon-remove-sm">cancel</span>
-            </div>
-            <div class="chip-item">
-                Strawberry
-               <span class="material-icons icon-remove-sm">cancel</span>
-            </div>
-            <div class="chip-item">
-                Orange
-                <span class="material-icons icon-remove-sm">cancel</span>
-            </div>
-            <div class="chip-item">
-                Kiwi
-                <span class="material-icons icon-remove-sm">cancel</span>
-            </div>
-            <div class="chip-item">
-                Ch
-                <span class="material-icons icon-remove-sm">cancel</span>
+                </div>
+                <div class="chip-item">
+                    Orange
+                    <span class="material-icons icon-remove-sm">cancel</span>
+                </div>
+                <div class="chip-item">
+                    Kiwi
+                    <span class="material-icons icon-remove-sm">cancel</span>
+                </div>
+                <div class="chip-item">
+                    Cherry
+                    <span class="material-icons icon-remove-sm">cancel</span>
+                </div>
             </div>
         </div>
-
-        <form id="form-chip">
-            <div class="chip-input">
-                <div id="chip-container" class="chip"></div>
-               <input type="text" class="input" 
-               placeholder="Enter input">
+    </div>
+    <hr>
+    <div class="head">STACKED CHIPS
+        <div class="container">
+            <div class="chip chip-stacked">
+                <div class="chip-item stacked-item">
+                    Apple
+                </div>
+                <div class="chip-item stacked-item">
+                    Banana
+                </div>
+                <div class="chip-item stacked-item">
+                    Strawberry
+                </div>
+                <div class="chip-item stacked-item">
+                    Orange
+                </div>
             </div>
-        </form> 
+        </div>
+    </div>
+    <hr>
+    <div class="head">CHIPS WITH INPUT
+        <div class="container">
+            <form id="form-chip">
+                <div class="chip-input">
+                    <div id="chip-container" class="chip"></div>
+                    <input type="text" class="input" 
+                    placeholder="Enter input">
+                </div>
+            </form>
+        </div>
     </div>
     <script src="chips.js"></script>
 </body>

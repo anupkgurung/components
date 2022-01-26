@@ -13,7 +13,6 @@ body {
     width: 100%;
     height: 30rem;
 }
-
 .card-container {
     border-radius: 5px;
     background-color: #ffffffed;
@@ -21,7 +20,13 @@ body {
     height: 24.3rem;
     box-shadow: 0px 2px 2px black;
 }
-
+.card-container--horizontal {
+    height: 10rem;
+    width: 23.5rem;
+}
+.card-img--horizontal {
+    height: 7rem;
+}
 .card-img-container {
     height: 12.8rem;
 }
@@ -31,9 +36,21 @@ img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+.img--no-radius {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.img-width--horizontal {
+    width: 7rem;
+    height: 7rem;
+}
 .card-header {
     display: flex;
     flex-direction: column;
+}
+.card-header--horizontal {
+    flex-direction: row;
+    gap: 5%;
 }
 .card-footer {
     display: flex;
@@ -72,6 +89,9 @@ h2 {
     margin: 0%;
     padding-top: 3%;
 }
+.header--horizontal {
+    padding-top: 10%;
+}
 p {
     margin: 0%;
 }
@@ -86,6 +106,28 @@ p {
     height: 5rem;
     margin-left: 1rem;
     padding-top: 0;
+}
+.title-overlay {
+    position: fixed;
+    z-index: 1;
+    margin-top: 8.5rem;
+    color: white;
+}
+.card-desc--overlay {
+    margin-top: 1rem;
+}
+.card-container--overlay {
+    width: 23rem;
+    height: 20rem;
+}
+.card-desc--top {
+    margin-top: 0.5rem;
+}
+.card-footer--height {
+    height: 3rem;
+}
+.card-footer--height-horizontal {
+    height: 2.5rem;
 }
 /* @media only screen and (max-width:600px){
     .card-container {
