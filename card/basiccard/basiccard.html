@@ -10,14 +10,17 @@
     <title>Basic Card Component</title>
 </head>
 <body>
-    <div class="container container-verticle">
+    <div class="container">
+    <!-- BASIC CARD -->
+       <div class="item">
+
         <div class='card-container'>
             <div class="card-header">
                 <div class="card-img-container">
                     <img src="./everest.jpg" alt="">
                 </div>
                 <div class="card-title font-lg">
-                    <h2>Makalu Mountain</h2>
+                    <h2>Everest</h2>
                     <p>located in Nepal</p>
                 </div>
                 <div class="card-desc font-sm">
@@ -39,6 +42,173 @@
                     </div>
             </div>
         </div>
+
+       </div>
+       
+    <!-- BAISC WITH TEXT OVER MEDIA -->
+       <div class="item">
+
+        <div class='card-container card-container--overlay'>
+            <div class="card-header">
+                <div class="card-img-container">
+                    <img src="./anna.jpg" alt="">
+                </div>
+                <div class="card-title title-overlay font-lg">
+                    <h2>Mount Annapurna</h2>
+                    <p>located in Nepal</p>
+                </div>
+                <div class="card-desc card-desc--overlay font-sm">
+                    Highest mountain in the world.
+                    peaks of 8000m above the sea level.
+                </div>
+            </div>
+            <div class="card-footer">
+                    <div class="card-read footer-btn">READ</div>
+                    <div class='card-bookmark footer-btn'>BOOKMARK</div>
+                    <div class="card-favourite footer-icons">
+                        <span class="material-icons">favorite_border</span>
+                    </div>
+                    <div class="card-share footer-icons">
+                        <span class="material-icons">share</span>
+                    </div>
+                    <div class="card-more footer-icons">
+                        <span class="material-icons">more_vert</span>
+                </div>
+            </div>
+        </div>
+
+       </div>
+        <!-- CARD WITH HEADER -->
+       <div class="item">
+
+        <div class='card-container'>
+            <div class="card-header">
+                <div class="card-title font-lg">
+                    <h2>Trishul Mountain</h2>
+                    <p>located in Uttarakhand</p>
+                </div>
+                <div class="card-img-container">
+                    <img class="img--no-radius" src="./trishul.jpg" alt="">
+                </div>
+                <div class="card-desc card-desc--top font-sm">
+                    Trisul is a group of three Himalayan mountain peaks of Uttarakhand.
+                </div>
+            </div>
+            <div class="card-footer card-footer--height">
+                    <div class="card-read footer-btn">READ</div>
+                    <div class='card-bookmark footer-btn'>BOOKMARK</div>
+                    <div class="card-favourite footer-icons">
+                        <span class="material-icons">favorite_border</span>
+                    </div>
+                    <div class="card-share footer-icons">
+                        <span class="material-icons">share</span>
+                    </div>
+                    <div class="card-more footer-icons">
+                        <span class="material-icons">more_vert</span>
+                    </div>
+            </div>
+        </div>
+
+       </div>
+        <!-- HORIZONTAL CARD -->
+        <div class="item">
+
+            <div class='card-container card-container--horizontal'>
+                <div class="card-header card-header--horizontal">
+                    <div class="card-img--horizontal">
+                        <img class="img-width--horizontal" src="./makalu.jpg" alt="">
+                    </div>
+                    <div class="font-sm">
+                        <h2 class="header--horizontal">Makalu Mountain</h2>
+                        <p>located in Nepal</p>
+                    </div>
+                </div>
+                <div class="card-footer card-footer--height-horizontal">
+                        <div class="card-read footer-btn">READ</div>
+                        <div class='card-bookmark footer-btn'>BOOKMARK</div>
+                        <div class="card-favourite footer-icons">
+                            <span class="material-icons">favorite_border</span>
+                        </div>
+                        <div class="card-share footer-icons">
+                            <span class="material-icons">share</span>
+                        </div>
+                        <div class="card-more footer-icons">
+                            <span class="material-icons">more_vert</span>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- BAISC CARD WITH ONLY BUTTON -->
+        <div class="item">
+
+            <div class='card-container'>
+                <div class="card-header">
+                    <div class="card-img-container">
+                        <img src="./everest.jpg" alt="">
+                    </div>
+                    <div class="card-title font-lg">
+                        <h2>Everest</h2>
+                        <p>located in Nepal</p>
+                    </div>
+                    <div class="card-desc font-sm">
+                        Highest mountain in the world.
+                        peaks of 8000m above the sea level.
+                    </div>
+                </div>
+                <div class="card-footer">
+                        <div class="card-read footer-btn">READ</div>
+                        <div class='card-bookmark footer-btn'>BOOKMARK</div>
+                        <div class="card-favourite footer-icons icon-hidden">
+                            <span class="material-icons">favorite_border</span>
+                        </div>
+                        <div class="card-share footer-icons icon-hidden">
+                            <span class="material-icons">share</span>
+                        </div>
+                        <div class="card-more footer-icons icon-hidden">
+                            <span class="material-icons">more_vert</span>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- CARD WITH ONLY ICON -->
+        <div class="item">
+
+            <div class='card-container'>
+                <div class="card-header">
+                    <div class="card-img-container">
+                        <img src="./everest.jpg" alt="">
+                    </div>
+                    <div class="card-title font-lg">
+                        <h2>Everest</h2>
+                        <p>located in Nepal</p>
+                    </div>
+                    <div class="card-desc font-sm">
+                        Highest mountain in the world.
+                        peaks of 8000m above the sea level.
+                    </div>
+                </div>
+                <div class="card-footer">
+                        <div class="card-read footer-btn icon-hidden">READ</div>
+                        <div class='card-bookmark footer-btn icon-hidden'>BOOKMARK</div>
+                        <div class="card-favourite footer-icons">
+                            <span class="material-icons">favorite_border</span>
+                        </div>
+                        <div class="card-share footer-icons">
+                            <span class="material-icons">share</span>
+                        </div>
+                        <div class="card-more footer-icons ">
+                            <span class="material-icons">more_vert</span>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+
     </div>
 </body>
 </html>

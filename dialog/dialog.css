@@ -7,7 +7,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 .main-container {
-    background-color: #f5efef;
+    background-color: rgba(0,0,0,.32);
+     /* #f5efef; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +16,7 @@
     height: 30rem;
 }
 .dialog {
-    box-shadow: 3px 2px 18px 3px black;
+    box-shadow: 6px 11px 30px 1px black;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -44,3 +45,27 @@ p {
     background-color: whitesmoke;
     cursor: pointer;
 }
+.dialog-simple {
+    height: 16rem;
+}
+.dialog-confirm {
+    height: 20rem;
+}
+.btn-grp-col{
+    flex-direction: column;
+    color: #0a020987;
+    margin-left: 1rem;
+    margin-top: 0rem;
+}
+.btn-row {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+.material-icons {
+    font-size: 45px;
+}
+/* .btn-content--scroll {
+    overflow-y:scroll;
+} */
+
