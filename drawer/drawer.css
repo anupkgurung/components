@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
 .main-container {
     background-color: #f5efef;
     display: flex;
@@ -17,7 +22,8 @@ a:hover {
     cursor: pointer;
 }
 a:focus {
-    background-color: rgb(60, 214, 241);
+    background-color:  #373bc726;
+    color: #373bc7f2;
     border-radius: 5px;
 }
 .drawer-container {
@@ -39,11 +45,48 @@ h3 {
 p {
     margin: 0rem 0rem 0rem .9rem;
 }
-
 .icon-drawer {
     margin-right: 2rem;
 }
 .title{
     margin: .1rem;
     padding: .3rem;
+}
+.fix-asside {
+    height: 100%;
+}
+.title-adjust--fix {
+    position: fixed;
+    background: white;
+    /* border: 1px solid; */
+    top: 0px;
+    width: 235px;
+    margin: 0rem;
+    padding: 0px;
+}
+.link-adjust--fix {
+    padding-top: 4rem;
+    /* height: 100vh; */
+}
+.fix-asside {
+    display: flex;
+    /* gap: 2px; */
+}
+.drawer-width--fix {
+    width: 400px;
+    height: 100%;
+}
+.main-width--fix {
+    width: 100%;
+}
+hr {
+    width: 100%;
+    border-top: 0px;
+}
+aside {
+    border-right: 1px solid #00000038;
+    overflow-y: auto;
+}
+main{
+    overflow-x: auto;
 }
